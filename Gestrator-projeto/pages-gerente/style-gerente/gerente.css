@@ -1,5 +1,5 @@
 aside{
-    background-color: rgb(99, 146, 248);
+    background-color: rgb(17, 86, 235);
     height: 100vh;
     text-align: center;
     color: white;
@@ -28,48 +28,53 @@ nav ul li a{
     margin-right: 10px;
 }
 
-.func{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 230px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.func h5{
-    margin-left: 20px;
-}
-
-.name h5{
-    margin-left: 5px;
-}
-.name{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 280px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.tasks{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 230px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
 .margintop{
     margin: 50px;
+}
+#escolha-setor{
+    margin-left: 60px;
+}
+.header-setor{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(17, 86, 235);
+    height: 40px;
+    width: 70%;
+}
+
+.menu-alter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(17, 86, 235);
+    height: 70px;
+    width: 90%;
+}
+.color-btn{
+    color: white;
+}
+.agenda-relatorio{
+    margin-left: 10px;
+}
+
+.formulario{
+    background-color: white;
+    height: 600px;
+    width: 90%;
+    margin-left: 60px;
+
+}
+
+.formulario h3{
+    padding: 20px 0px 20px 30px;
+}
+
+form{
+    padding: 20px 0px 0px 20px;
+    width: 90%;
+
 }
