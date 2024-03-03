@@ -1,7 +1,8 @@
 aside {
-  background-color: rgb(99, 146, 248);
+  background-color: rgb(17, 86, 235);
   height: 100vh;
   text-align: center;
+  align-items: center;
   color: white;
 }
 
@@ -13,6 +14,7 @@ main {
 nav ul {
   list-style-type: none;
   margin-top: 100px;
+  
 }
 
 nav ul li {
@@ -29,6 +31,7 @@ nav ul li a {
 .mr {
   margin-right: 10px;
   color: white;
+  
 }
 h5 {
   color: white;
@@ -36,7 +39,7 @@ h5 {
 
 .func {
   margin-top: 20px;
-  background-color: rgb(99, 146, 248);
+  background-color: rgb(17, 86, 235);
   border-radius: 20px;
   width: 230px;
   height: 40px;
@@ -58,7 +61,7 @@ h5 {
 }
 .name {
   margin-top: 20px;
-  background-color: rgb(99, 146, 248);
+  background-color: rgb(17, 86, 235);
   border-radius: 20px;
   width: 280px;
   height: 40px;
@@ -70,7 +73,7 @@ h5 {
 
 .tasks {
   margin-top: 20px;
-  background-color: rgb(99, 146, 248);
+  background-color: rgb(17, 86, 235);
   border-radius: 20px;
   width: 230px;
   height: 80px;
@@ -89,9 +92,14 @@ i {
   margin-right: 10px;
 }
 
+
 .table-white {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 200px 250px;
   background-color: white;
+  height: 600px;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
 }
