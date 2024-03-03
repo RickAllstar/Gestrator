@@ -88,7 +88,6 @@ nav ul li a{
 .color-btn{
     color: white;
 }
-
 .agenda-relatorio{
     margin-left: 10px;
     margin-top: 15px;
@@ -98,7 +97,7 @@ nav ul li a{
     background-color: #0061A9;
 }
 
-.dropdown-menu a.dropdown-item {
+.dropdown-menu a {
     color: white; 
 }
 
@@ -108,7 +107,7 @@ nav ul li a{
     transform: translateY(-3px);
 }
 
-.formulario{
+.formulario {
     background-color: white;
     height: 600px;
     width: 90%;
@@ -128,4 +127,16 @@ nav ul li a{
 form{
     padding: 20px 0px 0px 20px;
     width: 90%;
+    
+}
+
+.btn-submit{
+    margin-top: 20px;
+    background-color: #1A2833;
+    width: 200px;
+}
+
+.custom-fieldset{
+    border:2px solid #0061A9;
+    padding: 30px 0px;
 }

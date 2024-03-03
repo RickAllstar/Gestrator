@@ -98,7 +98,7 @@ nav ul li a{
 }
 
 .dropdown-menu a {
-    color: white; /* Definindo a cor do texto como branco */
+    color: white; 
 }
 
 .dropdown-menu a.dropdown-item:hover {
@@ -107,7 +107,7 @@ nav ul li a{
     transform: translateY(-3px);
 }
 
-.formulario{
+.formulario {
     background-color: white;
     height: 600px;
     width: 90%;
@@ -117,6 +117,11 @@ nav ul li a{
 
 .formulario h3{
     padding: 20px 0px 20px 30px;
+    text-align: center;
+    background-color: #1A2833;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 form{
@@ -124,7 +129,13 @@ form{
     width: 90%;
 }
 
-.btn{
-    background-color: #0061A9;
-    
+.btn-submit{
+    margin-top: 20px;
+    background-color: #1A2833;
+    width: 200px;
+}
+
+.custom-fieldset{
+    border:2px solid #0061A9;
+    padding: 30px 0px;
 }

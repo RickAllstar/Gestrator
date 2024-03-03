@@ -33,22 +33,31 @@
       <div class="row">
         <aside class="col-2">
         <a href="gerente.html"><h2>Gestrator</h2></a>
-          <nav>
-            <ul>
-              <li>
-                <a href=""><i class="fa-solid fa-house mr"></i>Inicio</a>
-              </li>
-              <li>
-                <a href=""><i class="fa-solid fa-list-check mr"></i>Tarefas</a>
-              </li>
-              <li>
-                <a href=""><i class="fa-solid fa-school mr"></i>Conteudo</a>
-              </li>
-              <li>
-                <a href=""><i class="fa-brands fa-rocketchat mr"></i>Chat</a>
-              </li>
-            </ul>
-          </nav>
+        <nav>
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-house mr"></i>Inicio</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-list-check mr"></i>Tarefas</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-book mr"></i>Conteudo</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-rocketchat mr"></i>Chat</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-bell mr"></i></i>Notificações</a>
+            </li>
+            <li>
+              <a href="cadastrofunc.html"><i class="fa-regular fa-user mr"></i></i>Funcionarios</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-list-check mr"></i></i>Relatorio</a>
+            </li>
+          </ul>
+        </nav>
         </aside>
         <main class="col-10">
           <div class="row">
@@ -110,10 +119,10 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li>
-                    <a class="dropdown-item" href="#">Cadastrar funcionario</a>
+                    <a class="dropdown-item" href="cadastrofunc.html">Cadastrar funcionario</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Consultar funcionario</a>
+                    <a class="dropdown-item" href="consultarfunc.html">Consultar funcionario</a>
                   </li>
                 </ul>
               </div>
@@ -131,9 +140,9 @@
                   Tarefas
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Criar tarefa</a></li>
+                  <li><a class="dropdown-item" href="criartarefa.html">Criar tarefa</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Consultar tarefa</a>
+                    <a class="dropdown-item" href="consultartarefa.html">Consultar tarefa</a>
                   </li>
                 </ul>
               </div>
@@ -157,12 +166,14 @@
               
               <div class="formulario">
                 <div class="row">
-                  <h3>Cadastrar Funcionario</h3>
+                  <div class="col-md-12">
+                    <h3>Cadastrar Funcionario</h3>
+                  </div>   
                 </div>
                 
                 <form class="row">
                   
-                  <table>
+                  
                     <div class="col-md-6">
                       <label for="name">Nome: </label>
                       <input type="text" class="form-control"  aria-label="First name">
@@ -193,7 +204,7 @@
                       <input type="email" class="form-control" id="inputEmail4">
                     </div>
 
-                      <div class="col-12">
+                      <div class="col-md-6">
                         <label for="inputAddress" class="form-label">Enderço</label>
                         <input type="text" class="form-control" id="inputAddress" >
                       </div>
@@ -203,19 +214,13 @@
                         <input type="text" class="form-control" id="inputCity">
                       </div>
 
-                      <div class="col-md-4">
-                        <label for="inputState" class="form-label">UF</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>Choose...</option>
-                          <option>...</option>
-                        </select>
-                      </div>
+      
       
                       <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <button type="submit" class="btn-submit btn btn-primary">Cadastrar</button>
                       </div>
 
-                  </table>           
+                           
                 </form>
               </div>
             </div>
