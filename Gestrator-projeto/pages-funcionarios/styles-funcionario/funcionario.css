@@ -1,75 +1,102 @@
-aside{
-    background-color: rgb(99, 146, 248);
-    height: 100vh;
-    text-align: center;
-    color: white;
+aside {
+  background-color: rgb(99, 146, 248);
+  height: 100vh;
+  text-align: center;
+  color: white;
 }
 
-main{
-    background-color: rgb(221, 221, 221);
-    height: 100vh;
+main {
+  background-color: rgb(221, 221, 221);
+  height: 100vh;
 }
 
-nav ul{
-    list-style-type: none;
-    margin-top: 100px;
+nav ul {
+  list-style-type: none;
+  margin-top: 100px;
 }
 
-nav ul li{
-    padding-top: 30px;
+nav ul li {
+  padding-top: 30px;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-.mr{
-    margin-right: 10px;
+.mr {
+  margin-right: 10px;
+  color: white;
+}
+h5 {
+  color: white;
 }
 
-.func{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 230px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+.func {
+  margin-top: 20px;
+  background-color: rgb(99, 146, 248);
+  border-radius: 20px;
+  width: 230px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
 }
 
-.func h5{
-    margin-left: 20px;
+.func h5 {
+  margin-left: 20px;
+  color: white;
 }
 
-.name h5{
-    margin-left: 5px;
+.name h5 {
+  margin-left: 5px;
+  color: white;
 }
-.name{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 280px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.tasks{
-    margin-top: 20px;
-    background-color: rgb(99, 146, 248);
-    border-radius: 20px;
-    width: 230px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+.name {
+  margin-top: 20px;
+  background-color: rgb(99, 146, 248);
+  border-radius: 20px;
+  width: 280px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
 }
 
-.margintop{
-    margin: 50px;
+.tasks {
+  margin-top: 20px;
+  background-color: rgb(99, 146, 248);
+  border-radius: 20px;
+  width: 230px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.margintop {
+  margin: 50px;
+}
+
+i {
+  margin-right: 10px;
+}
+.center-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.table-white {
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  border-radius: 5px;
 }
