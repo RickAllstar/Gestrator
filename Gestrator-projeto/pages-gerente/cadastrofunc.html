@@ -32,7 +32,7 @@
     <div class="container-fluid">
       <div class="row">
         <aside class="col-2">
-          <a href="gerente.html"><h2>Gestrator</h2></a>
+        <a href="gerente.html"><h2>Gestrator</h2></a>
           <nav>
             <ul>
               <li>
@@ -73,7 +73,7 @@
             </div>
             <div class="col-7"></div>
             <div class="col-3">
-              <div class="header-setor dropdown">
+              <div class="header-setor dropdown" id="profile">
                 <button
                   class="color-btn btn dropdown-toggle"
                   type="button"
@@ -110,7 +110,7 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li>
-                    <a class="dropdown-item" href="cadastrofunc.html">Cadastrar funcionario</a>
+                    <a class="dropdown-item" href="#">Cadastrar funcionario</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">Consultar funcionario</a>
@@ -157,10 +157,66 @@
               
               <div class="formulario">
                 <div class="row">
-                  <h3>Relatorio</h3>
+                  <h3>Cadastrar Funcionario</h3>
                 </div>
                 
-                
+                <form class="row">
+                  
+                  <table>
+                    <div class="col-md-6">
+                      <label for="name">Nome: </label>
+                      <input type="text" class="form-control"  aria-label="First name">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="name">Sobrenome: </label>
+                      <input type="text" class="form-control"   aria-label="Last name">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="name">CPF: </label>
+                      <input type="text" class="form-control"  aria-label="cpf">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="name">RG: </label>
+                      <input type="text" class="form-control"  aria-label="First name">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="date">Data de nascimento</label>
+                      <input type="date" class="form-control" name="birthday">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Enderço</label>
+                        <input type="text" class="form-control" id="inputAddress" >
+                      </div>
+                                            
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">UF</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+      
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                      </div>
+
+                  </table>           
+                </form>
               </div>
             </div>
 
