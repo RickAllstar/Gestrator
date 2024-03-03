@@ -1,0 +1,75 @@
+aside{
+    background-color: rgb(99, 146, 248);
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: rgb(221, 221, 221);
+    height: 100vh;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-top: 100px;
+}
+
+nav ul li{
+    padding-top: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.mr{
+    margin-right: 10px;
+}
+
+.func{
+    margin-top: 20px;
+    background-color: rgb(99, 146, 248);
+    border-radius: 20px;
+    width: 230px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.func h5{
+    margin-left: 20px;
+}
+
+.name h5{
+    margin-left: 5px;
+}
+.name{
+    margin-top: 20px;
+    background-color: rgb(99, 146, 248);
+    border-radius: 20px;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.tasks{
+    margin-top: 20px;
+    background-color: rgb(99, 146, 248);
+    border-radius: 20px;
+    width: 230px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.margintop{
+    margin: 50px;
+}
