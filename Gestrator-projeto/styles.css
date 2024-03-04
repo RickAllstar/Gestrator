@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:wght@100&family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(187, 190, 192);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    border-radius: 15px;
+    background-color: #fff;
+    width: 960px;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    content: ""; 
+    position: absolute;
+    background-color: #2E6CB4;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    left: 0;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary{
+    color: #fff;
+}
+.title-second{
+    color: #2E6CB4;
+}
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary{
+    color: #fff;
+}
+.description-second{
+    color: #7f8c8d;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border-width: 0px;
+    margin-top: 1rem;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: background-color .5s;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #50A5F0;
+}
+.btn-second {
+    background-color: #2E6CB4;
+    border: 1px solid #2E6CB4;
+    color: #fff;
+    transition: background-color .5s;
+}
+.btn-second:hover {
+    background-color: #fff ;
+    border: 1px solid #2E6CB4 ;
+    color: #2E6CB4 ;
+}
+.btn-signup-created {
+    background-color: #4CAF50; /* Cor verde desejada */
+    border-color: #4CAF50;
+    color: #fff; /* Cor do texto em branco */  
+    padding: 10px;  
+}
+.btn-signup-created:hover{
+    background-color: #4CAF50; /* Cor verde desejada */
+    border-color: #4CAF50;
+    color: #fff; /* Cor do texto em branco */  
+    transform: translateY(-5px);
+}
+.first-content{
+    display: flex;
+    position: relative;
+}
+.first-content .second-column{
+    z-index: 12;
+}
+
+.first-column{
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.second-column{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-social-media{
+    display: flex;
+    list-style-type: none;
+}
+
+.link-social-media:not(:first-child){
+    margin-left: 10px;
+}
+.link-social-media .item-social-media{
+    transition: background-color .5s;
+}
+
+.link-social-media:hover .item-social-media{
+    background-color: #2E6CB4;
+    color: #fff;
+    border-color: #2E6CB4;
+}
+.item-social-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"]{
+    height: 45px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.form input[type="date"]{
+    width: 50%;
+}
+
+
+.label-input{
+    border-bottom: 2px solid #2E6CB4;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify{
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+/*Second content */
+
+.second-content{
+    position: absolute;
+    display: flex;
+}
+
+.second-content .first-column{
+    order: 2;
+    z-index: -1;
+}
+.second-content .second-column{
+    order: 1;
+    z-index: -1;
+}
+
+.password{
+    color: #34395e;
+    font-size: 14px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.sign-in-js .first-content .first-column{
+    z-index: -1;
+}
+
+.sign-in-js .second-content .second-column{
+    z-index: 11;
+}
+.sign-in-js .second-content .first-column{
+    z-index: 13;
+}
+
+.sign-in-js .content::before{
+    left: 60%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    animation: slidein 2s;
+
+    z-index: 12;
+}
+
+.sign-up-js .content::before{
+    animation: slideout 2s;
+
+    z-index: 12;
+}
+
+.sign-up-js .second-content .first-column,
+.sign-up-js .second-content .second-column{
+    z-index: -1;
+}
+
+.sign-up-js .first-content .second-column{
+    z-index: 11;
+}
+.sign-up-js .first-content .first-column{
+    z-index: 13;
+}
+
+
+.sign-in-js .first-content .second-column{
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoEsq 2s;
+}
+
+.sign-up-js .second-content .second-column{
+    position: relative;
+    z-index: -1;
+    animation: deslocamentoDir 2s;
+}
+
+
+
+@keyframes deslocamentoEsq {
+    from{
+        left: 0;
+        opacity: 1;
+        z-index: 12;
+    }
+    
+    25%{
+        left: -80px;
+        opacity: .5;
+    }
+    
+    50%{
+        left: -100px;
+        opacity: .2;
+    }
+    
+    to{
+        left: -110px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+@keyframes deslocamentoDir {
+    from{
+        left: 0;
+        opacity: 1;
+        z-index: 12;
+    }
+
+    25%{
+        left: 80px;
+        opacity: .5;
+    }
+
+    50%{
+        left: 100px;
+        opacity: .2;
+    }
+
+    to{
+        left: 110px;
+        opacity: 0;
+        z-index: -1;
+        
+    }
+}
+
+/* Animação CSS */
+@keyframes slidein {
+    from {
+        left: 0;
+        width: 40%;
+    }
+
+    25% {
+        left: 15%; /* Ajustado o valor intermediário */
+        width: 45%; /* Ajustado o valor intermediário */
+    }
+
+    50% {
+        left: 45%; /* Ajustado o valor intermediário */
+        width: 50%; /* Ajustado o valor intermediário */
+    }
+
+    75% {
+        left: 40%; /* Ajustado o valor intermediário */
+        width: 45%; /* Ajustado o valor intermediário */
+    }
+
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+
+@keyframes slideout {
+    from {
+        left: 60%;
+        width: 40%;
+    }
+
+    25% {
+        left: 45%;
+        width: 55%; /* Aumentado um pouco a largura */
+    }
+
+    50% {
+        left: 25%;
+        width: 50%; /* Reduzindo a variação de largura */
+    }
+
+    75% {
+        left: 5%;
+        width: 45%; /* Reduzindo ainda mais a variação de largura */
+    }
+
+    to {
+        left: -5%; /* Ajustado para a posição final ser um pouco mais à esquerda */
+        width: 40%;
+    }
+}
