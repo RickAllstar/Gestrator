@@ -35,7 +35,7 @@ nav{
 }
 nav ul{
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 40px;
     display: block;
    
 }
@@ -48,6 +48,11 @@ nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
+}
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
 }
 
 .mr{

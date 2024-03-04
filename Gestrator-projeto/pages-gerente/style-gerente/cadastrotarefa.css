@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
+}
 aside{
     background-image: url(../../imagens/teste.jpg);
     background-position: 80%;
@@ -35,7 +39,7 @@ nav{
 }
 nav ul{
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 40px;
     display: block;
    
 }
