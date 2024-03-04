@@ -4,17 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo-gestrator{
-    width: 350px;
-    height: 200px;
-    margin-left: -25px;
-}
+
 aside{
     background-image: url(../../imagens/teste.jpg);
     background-position: 80%;
     background-size: cover;
     height: 100vh;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 aside h2{
@@ -23,7 +19,7 @@ aside h2{
 }
 
 aside a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -49,11 +45,15 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
 }
-
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
+}
 .mr{
     margin-right: 10px;
 }
@@ -89,12 +89,15 @@ nav ul li a{
     height: 70px;
     width: 90%;
 }
+.menu-alter a{
+    color: white;
+    text-decoration: none;
+}
 .color-btn{
     color: white;
 }
 .agenda-relatorio{
     margin-left: 10px;
-    margin-top: 15px;
 }
 
 .dropdown-menu {

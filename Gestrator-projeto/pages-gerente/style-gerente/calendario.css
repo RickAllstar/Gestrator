@@ -10,7 +10,7 @@ aside{
   background-position: 80%;
   background-size: cover;
   height: 100vh;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 aside h2{
@@ -19,7 +19,7 @@ aside h2{
 }
 
 aside a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 20px;
 }
@@ -57,7 +57,6 @@ nav ul li a{
 .mr{
   margin-right: 10px;
 }
-
   h5 {
     color: white;
   }
@@ -94,6 +93,12 @@ nav ul li a{
   height: 70px;
   width: 90%;
 }
+
+.menu-alter a{
+  color: white;
+  text-decoration: none;
+}
+
 .color-btn{
   color: white;
 }
