@@ -61,9 +61,10 @@
   .margintop{
     margin: 50px;
   }
-  #Seus-cont{
-    margin-left: 60px;
-  }
+#Seus_cont{
+    margin-left: 10px;
+    background-color: aqua;
+}
   #profile{
     margin-left: 15px;
   }
@@ -76,7 +77,7 @@
     color: white;
     background-color: #0061A9;
     height: 40px;
-    width: 70%;
+    width: 80%;
   }
   
   .menu-alter{
