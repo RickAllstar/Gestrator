@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside{
+    background-image: url(../../imagens/teste.jpg);
+    background-position: 80%;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+aside h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+aside a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 40px;
+    display: block;
+   
+}
+
+nav ul li{
+    padding-top: 30px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
+}
+.mr{
+    margin-right: 10px;
+}
+
+.margintop{
+    margin: 50px;
+}
+#escolha-setor{
+    margin-left: 60px;
+}
+#profile{
+    margin-left: 15px;
+}
+.header-setor{
+    border-radius: 12px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0061A9;
+    height: 40px;
+    width: 70%;
+}
+
+.menu-alter{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #0061A9;
+    height: 70px;
+    width: 90%;
+}
+.color-btn{
+    color: white;
+}
+
+.agenda-relatorio{
+    margin-left: 10px;
+    
+}
+
+.menu-alter a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.dropdown-menu {
+    background-color: #0061A9;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: white; 
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background-color: rgb(107, 149, 240);
+    transition: 0.5s;
+    transform: translateY(-3px);
+}
+
+.formulario{
+    background-color: white;
+    height: 600px;
+    width: 90%;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+
+.formulario h3{
+    padding: 20px 0px 20px 30px;
+    text-align: center;
+    background-color: #1A2833;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+form{
+    padding: 20px 0px 0px 20px;
+    width: 90%;
+}
+
+table{
+    margin-top: 50px;
+  }
+  
+  table tr{
+    border: 2px solid #0061A9;
+  }
+  
+  table tr td{
+    padding: 10px 100px 10px 10px;
+  }
+  table tr th{
+    padding: 10px 0px 10px 12px;
+    background-color: #0061A9;
+    color: white;
+  }
+  
+  .cor-task{
+    background-color: #8dbfe6;
+  }
