@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <title>Gestrator Login</title>
 </head>
 <body>
+    <div class="container">
+        <div class="content first-content"><!--Inicio first-content-->
+            <div class="first-column"> <!--Inicio first-column-->
+                <h2 class="title title-primary">Sou gerente</h2>
+                <p class="description description-primary">Por favor se conecte</p>
+                <p class="description description-primary">e gerencie</p>
+                <button id="signin" class="btn btn-primary">logar</button>
+            </div> <!--Fim first-column-->
+
+            <div class="second-column"><!--Inicio second-column-->
+                <h2 class="title title-second">Funcionario</h2>
     
+                <form class="form" action="pages-funcionarios/funcionario.html">
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-user icon-modify"></i>
+                        <input type="text" placeholder="login" required>
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-key icon-modify"></i>
+                        <input type="password" placeholder="Password" required>
+                    </label>
+
+                    <input type="submit" value="Entrar" class="btn btn-second">
+                </form>
+            </div> <!--Fim second-column-->
+        </div><!--Fim first-content-->
+
+        <div class="content second-content"> <!--Inicio Second-content-->
+            <div class="first-column"> <!--Inicio first-column-->
+                <h2 class="title title-primary">Sou funcionario!</h2>
+                <p class="description description-primary">Entre com suas informações pessoais</p>
+                <p class="description description-primary">e comece sua jornada conosco</p>
+                <button id="signup" class="btn btn-primary">Entrar</button>
+            </div> <!--Fim first-column-->
+
+            <div class="second-column"><!--Inicio second-column-->
+                <h2 class="title title-second">Gerenciar</h2>
+
+                <!-- FORMULARIOOOOOOO-->
+                <form class="form login" action="pages-gerente/gerente.html">
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-user icon-modify"></i>
+                        <input type="text" placeholder="login" required>
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-key icon-modify"></i>
+                        <input type="password" placeholder="Password" required>
+                    </label>
+                    <input type="submit" value="sign in" class="btn btn-second">
+                </form>
+                <!--Fim formulariooooo-->
+            </div> <!--Fim second-column-->
+        </div> <!--Fim first-content-->
+    </div><!--Fim second-content-->
+
+    <script src="app.js"></script>
 </body>
 </html>
