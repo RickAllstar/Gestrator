@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
+}
 aside{
     background-image: url(../../imagens/teste.jpg);
     background-position: 80%;
@@ -48,11 +52,6 @@ nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
-}
-.logo-gestrator{
-    width: 350px;
-    height: 200px;
-    margin-left: -25px;
 }
 
 .mr{
@@ -132,6 +131,7 @@ nav ul li a{
 form{
     padding: 20px 0px 0px 20px;
     width: 90%;
+    
 }
 
 .btn-submit{

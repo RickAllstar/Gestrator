@@ -2,14 +2,15 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside{
-    background-image: url(../../imagens/imagem-aside.webp);
-    background-position: 20%;
+    background-image: url(../../imagens/teste.jpg);
+    background-position: 80%;
     background-size: cover;
     height: 100vh;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 aside h2{
@@ -18,12 +19,12 @@ aside h2{
 }
 
 aside a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 main{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(241, 241, 241);
     height: 100vh;
 }
 nav{
@@ -34,7 +35,7 @@ nav{
 }
 nav ul{
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 40px;
     display: block;
    
 }
@@ -44,10 +45,15 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 20px;
 }
-
+.logo-gestrator{
+    width: 350px;
+    height: 200px;
+    margin-left: -25px;
+}
 .mr{
     margin-right: 10px;
 }
@@ -68,7 +74,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: rgb(17, 86, 235);
+    background-color: #0061A9;
     height: 40px;
     width: 70%;
 }
@@ -79,7 +85,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: rgb(17, 86, 235);
+    background-color: #0061A9;
     height: 70px;
     width: 90%;
 }
@@ -93,11 +99,11 @@ nav ul li a{
 }
 
 .dropdown-menu {
-    background-color: rgb(17, 86, 235); /* Definindo a cor de fundo azul para o dropdown */
+    background-color: #0061A9;
 }
 
 .dropdown-menu a.dropdown-item {
-    color: white; /* Definindo a cor do texto como branco */
+    color: white; 
 }
 
 .dropdown-menu a.dropdown-item:hover {
@@ -111,11 +117,16 @@ nav ul li a{
     height: 600px;
     width: 90%;
     margin-left: 60px;
-
+    border-radius: 12px;
 }
 
 .formulario h3{
     padding: 20px 0px 20px 30px;
+    text-align: center;
+    background-color: #1A2833;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 form{

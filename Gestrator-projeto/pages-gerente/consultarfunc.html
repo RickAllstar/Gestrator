@@ -32,9 +32,7 @@
     <div class="container-fluid">
       <div class="row">
         <aside class="col-2">
-        
           <a href="gerente.html"><img class="logo-gestrator" src="../imagens/logo-gestrator.png" alt=""></a>
-        
         <nav>
           <ul>
             <li>
@@ -169,61 +167,26 @@
               <div class="formulario">
                 <div class="row">
                   <div class="col-md-12">
-                    <h3>Cadastrar Funcionario</h3>
+                    <h3>Consultar Funcionario</h3>
                   </div>   
                 </div>
                 
-                <form class="row">
-                  
-                  
-                    <div class="col-md-6">
-                      <label for="name">Nome: </label>
-                      <input type="text" class="form-control"  aria-label="First name">
-                    </div>
-
-                    <div class="col-md-6">
-                      <label for="name">Sobrenome: </label>
-                      <input type="text" class="form-control"   aria-label="Last name">
-                    </div>
-                    
-                    <div class="col-md-6">
-                      <label for="name">CPF: </label>
-                      <input type="text" class="form-control"  aria-label="cpf">
-                    </div>
-
-                    <div class="col-md-6">
-                      <label for="name">RG: </label>
-                      <input type="text" class="form-control"  aria-label="First name">
-                    </div>
-
-                    <div class="col-md-6">
-                      <label for="date">Data de nascimento</label>
-                      <input type="date" class="form-control" name="birthday">
-                    </div>
-
-                    <div class="col-md-6">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-
-                      <div class="col-md-6">
-                        <label for="inputAddress" class="form-label">Enderço</label>
-                        <input type="text" class="form-control" id="inputAddress" >
+                <form class="row consultar mx-auto">
+                  <fieldset class="custom-fieldset">
+                      <div class="col-md-6 mx-auto">
+                          <label for="inputState" class="form-label">Nome do funcionario: </label>
+                          <select id="inputState" class="form-select">
+                              <option selected>Rafael do Carmo</option>
+                              <option>Henrique Reis</option>
+                              <option>Álvaro Barcelos</option>
+                              <option>Álvaro Lomeu</option>
+                              <option>Renzo Cleto</option>
+                              <option>Ismael Henrique</option>
+                          </select>
                       </div>
-                                            
-                      <div class="col-md-6">
-                        <label for="inputCity" class="form-label">Cidade</label>
-                        <input type="text" class="form-control" id="inputCity">
-                      </div>
+                  </fieldset>
+              </form>
 
-      
-      
-                      <div class="col-12">
-                        <button type="submit" class="btn-submit btn btn-primary">Cadastrar</button>
-                      </div>
-
-                           
-                </form>
               </div>
             </div>
 
