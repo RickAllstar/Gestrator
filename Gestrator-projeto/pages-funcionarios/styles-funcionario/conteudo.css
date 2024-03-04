@@ -61,13 +61,13 @@
   .margintop{
     margin: 50px;
   }
-#Seus_cont{
-    margin-left: 10px;
-    background-color: aqua;
-}
+
+
+
   #profile{
     margin-left: 15px;
   }
+  
   .header-setor{
     border-radius: 12px;
     margin-top: 40px;
@@ -75,9 +75,23 @@
     align-items: center;
     justify-content: center;
     color: white;
+  }
+
+  .header-setor button {
     background-color: #0061A9;
-    height: 40px;
-    width: 80%;
+    margin-right: 0%;
+  }
+
+  .name i{
+    background-color: #0061A9;
+  }
+
+  .header-setor p {
+   background-color:#0061A9;
+   margin-left: 45px;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
   }
   
   .menu-alter{
@@ -121,7 +135,7 @@
   
   
   .formulario{
-    background-color: white;
+    background-color: rgb(199, 211, 254);
     height: 600px;
     width: 90%;
     margin-left: 60px;
@@ -132,33 +146,29 @@
     padding: 20px 0px 20px 30px;
     text-align: center;
     background-color: #1A2833;
-    color: white;
+    color: rgb(255, 255, 255);
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
   }
   
-  form{
-    padding: 20px 0px 0px 20px;
-    width: 90%;
-  }
-  
-  table{
+  .cursos {
+    display: flex;
     margin-top: 50px;
   }
-  
-  table tr{
-    border: 2px solid #0061A9;
-  }
-  
-  table tr td{
-    padding: 10px 100px 10px 10px;
-  }
-  table tr th{
-    padding: 10px 0px 10px 12px;
+
+  .cards{
     background-color: #0061A9;
+    width: 350px;
+    height: 400px;
+    margin: 35px;
+    border-radius: 10px;
+  }
+
+  .cards p {
+    background-color: blue;
     color: white;
   }
-  
-  .cor-task{
-    background-color: #8dbfe6;
+
+  .cards img {
+    margin-top: 20px;
   }

@@ -24,7 +24,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="styles-funcionario/funcionario.css" />
+    <link rel="stylesheet" href="styles-funcionario/conteudo.css" />
     <script src="script.js" defer></script>
     <link rel="icon" href="../icon/favicon.ico" type="image/x-icon">
     <title>Dash board Funcionario</title>
@@ -61,8 +61,20 @@
           <div class="row">
             <div class="col-md-2">
 
-              <div class="header-setor dropdown" id="Seus_cont">
-                  <p>Seus conteudos</p>
+              <div class="header-setor dropdown" id="escolha-setor">
+                <button
+                  class="color-btn btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  TI
+                </button>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="#">TI</a></li>
+                  <li><a class="dropdown-item" href="#">RH</a></li>
+                  <li><a class="dropdown-item" href="#">Financeiro</a></li>
+                </ul>
               </div>
 
             </div>
@@ -96,7 +108,7 @@
             <div class="col-md-3">
               <div class="menu-alter">
                 <i class="fa-solid fa-list-check mr"></i>
-                <a class="funcionario.html" href="funcionario.html">Tarefas</a>
+                <a class="funcionario.html" href="funcionario.html">Disponiveis</a>
               </div>
             </div> 
 
@@ -105,7 +117,7 @@
             <div class="col-md-3">
               <div class="menu-alter">
                 <i class="fa-solid fa-check"></i>
-                <a class="funcionario.html" href="funcionario.html">Concluido</a>
+                <a class="funcionario.html" href="funcionario.html">Em adamento</a>
               </div>
             </div>
 
@@ -115,7 +127,7 @@
             <div class="col-md-3">
               <div class="menu-alter">
                 <i class="fa-regular fa-thumbs-up"></i>
-                <a class="funcionario.html" href="funcionario.html">Feedback</a>
+                <a class="funcionario.html" href="funcionario.html">Concluidos</a>
               </div>
             </div>
           </div>
@@ -128,14 +140,27 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                    <h3>Tarefas</h3>
+                    <h3>Seus conteudos para estudo</h3>
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-md-12 ">
+                    <div class="cursos">
+                      <div class="cards">
+                        <img src="../imagens/uniforme-nr-10-01.jpg" alt="" width="350px" height="250px">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum consectetur atque, fugiat adipisci ducimus ab incidunt? Eaque magnam optio odit beatae. Consequatur beatae, modi odio harum blanditiis ipsam saepe fugit?</p>
+                      </div>
+                      <div class="cards">
+                        <img src="../imagens/nr10.jpg" alt="" width="350px" height="250px">                        
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum consectetur atque, fugiat adipisci ducimus ab incidunt? Eaque magnam optio odit beatae. Consequatur beatae, modi odio harum blanditiis ipsam saepe fugit?</p>
+                      </div>
+                      <div  class="cards"> 
+                        <img src="../imagens/NR10+CHIBA_FISIOMED.jpg" alt="" width="350px" height="250px">                       
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum consectetur atque, fugiat adipisci ducimus ab incidunt? Eaque magnam optio odit beatae. Consequatur beatae, modi odio harum blanditiis ipsam saepe fugit?</p>
+                      </div>
+                    </div>
                   </div>
-                  
                 </div>
 
               </div>
