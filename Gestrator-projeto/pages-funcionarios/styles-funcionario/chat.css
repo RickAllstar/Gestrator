@@ -57,6 +57,20 @@ nav ul li a {
   margin-right: 10px;
 }
 
+.tasks {
+  background-color: #0061a9;
+  border-radius: 20px;
+  width: 380px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+.tasks h5 {
+  margin-top: 16px;
+}
 .discussions {
   width: 35%;
   height: 700px;
@@ -181,15 +195,16 @@ nav ul li a {
 }
 
 .chat {
-  width: calc(65% - 85px);
+  width: calc(100% - 0%);
 }
 
 .header-chat {
-  background-color: #fff;
+  background-color: #afc0ce;
   height: 90px;
   box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
+  border-radius: 20px;
 }
 
 .chat .header-chat .icon {
@@ -200,10 +215,9 @@ nav ul li a {
 
 .chat .header-chat .name {
   margin: 0 0 0 20px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13pt;
-  color: #515151;
+  color: #fffdfd;
 }
 
 .chat .header-chat .right {
@@ -225,7 +239,7 @@ nav ul li a {
   display: block;
   width: 45px;
   height: 45px;
-  background: #e6e7ed;
+  background: #ede6e6;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   background-position: center;
@@ -235,9 +249,10 @@ nav ul li a {
 
 .chat .messages-chat .text {
   margin: 0 35px;
-  background-color: #f6f6f6;
+  background-color: #0061a9;
   padding: 15px;
   border-radius: 12px;
+  color: rgb(190, 190, 190);
 }
 
 .text-only {
@@ -267,19 +282,20 @@ nav ul li a {
 }
 
 .footer-chat {
-  width: calc(65% - 66px);
+  width: calc(80% - 0%);
   height: 80px;
   display: flex;
   align-items: center;
   position: absolute;
   bottom: 0;
-  background-color: transparent;
+  background-color: #afc0ce;
   border-top: 2px solid #eee;
+  border-radius: 20px;
 }
 
 .chat .footer-chat .icon {
   margin-left: 30px;
-  color: #c0c0c0;
+  color: #afc0ce;
   font-size: 14pt;
 }
 
@@ -308,10 +324,23 @@ nav ul li a {
 
 .write-message {
   border: none !important;
-  width: 60%;
+  width: 90%;
   height: 50px;
   margin-left: 20px;
   padding: 10px;
+  border-radius: 20px;
+}
+.fa-paper-plane {
+  padding: auto;
+  margin: 12px;
+  text-align: center;
+  color: #0061a9;
+  cursor: pointer;
+}
+.fa-user {
+  padding: auto;
+  margin: 18px;
+  text-align: center;
 }
 
 .footer-chat *::-webkit-input-placeholder {
