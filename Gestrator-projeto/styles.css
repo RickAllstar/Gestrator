@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(187, 190, 192);
+    background-image: url(imagens/teste.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
