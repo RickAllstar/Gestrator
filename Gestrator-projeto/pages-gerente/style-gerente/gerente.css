@@ -139,3 +139,24 @@ form{
     padding: 20px 0px 0px 20px;
     width: 90%;
 }
+
+table{
+    margin-top: 50px;
+  }
+  
+  table tr{
+    border: 2px solid #0061A9;
+  }
+  
+  table tr td{
+    padding: 10px 100px 10px 10px;
+  }
+  table tr th{
+    padding: 10px 0px 10px 12px;
+    background-color: #0061A9;
+    color: white;
+  }
+  
+  .cor-task{
+    background-color: #8dbfe6;
+  }
