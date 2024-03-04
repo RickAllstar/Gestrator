@@ -56,27 +56,12 @@
   }
   .mr{
     margin-right: 10px;
-<<<<<<< Updated upstream
-}
-
-.pag-name{
-    display: flex;
-}
-
-#seus_conteudos {  
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: #0061a9;
-    border-radius: 20px;
-    width: 450px;
-    height: 60px;
-=======
   }
   
   .margintop{
     margin: 50px;
   }
-  #escolha-setor{
+  #Seus-cont{
     margin-left: 60px;
   }
   #profile{
@@ -85,7 +70,6 @@
   .header-setor{
     border-radius: 12px;
     margin-top: 40px;
->>>>>>> Stashed changes
     display: flex;
     align-items: center;
     justify-content: center;
