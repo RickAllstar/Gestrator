@@ -24,55 +24,47 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="styles-funcionario/funcionario.css" />
+    <link rel="stylesheet" href="styles-funcionario/notificacao.css" />
     <script src="script.js" defer></script>
     <link rel="icon" href="../icon/favicon.ico" type="image/x-icon">
-    <title>Dash board Funcionario</title>
+    <title>Notificações</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <aside class="col-md-2"> 
-          <a href="gerente.html"><img class="logo-gestrator" src="../imagens/logo-gestrator.png" alt=""></a>
+          <a href="./funcionario.html"><img class="logo-gestrator" src="../imagens/logo-gestrator.png" alt=""></a>
           <nav>
             <ul>
               <li>
-                <a href="gerente.html"><i class="fa-solid fa-house mr"></i>Inicio</a>
+                <a href="./funcionario.html"><i class="fa-solid fa-house mr"></i>Inicio</a>
               </li>
               <li>
-                <a href="calendario.html"><i class="fa-solid fa-calendar mr"></i>Agenda</a>
+                <a href="./calendario.html"><i class="fa-solid fa-calendar mr"></i>Agenda</a>
               </li>
               <li>
-                <a href="criartarefa.html"><i class="fa-solid fa-list-check mr"></i>Tarefas</a>
+                <a href="./conteudo.html"><i class="fa-solid fa-book mr"></i>Conteudo</a>
               </li>
               <li>
-                <a href=""><i class="fa-solid fa-book mr"></i>Conteudo</a>
+                <a href="./chat.html"><i class="fa-brands fa-rocketchat mr"></i>Chat</a>
               </li>
               <li>
-                <a href=""><i class="fa-brands fa-rocketchat mr"></i>Chat</a>
-              </li>
-              <li>
-                <a href=""><i class="fa-solid fa-bell mr"></i></i>Notificações</a>
+                <a href="./notificacao.html"><i class="fa-solid fa-bell mr"></i></i>Notificações</a>
               </li>
             </ul>
           </nav>
         </aside>
         <main class="col-md-10">
+
           <div class="row">
             <div class="col-md-2">
-
-              <div class="header-setor dropdown" id="escolha-setor">
-                <button
-                  class="color-btn btn dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  TI
-                </button>
+            
+              <div class="tasks" >
+               <H5>Notificações</H5>
               </div>
 
             </div>
+            
             <div class="col-md-7"></div>
             <div class="col-md-3">
               <div class="header-setor dropdown">
@@ -100,31 +92,16 @@
 
           <div class="row margintop">
             
-            <div class="col-md-3">
-              <div class="menu-alter">
-                <i class="fa-solid fa-list-check mr"></i>
-                <a class="funcionario.html" href="funcionario.html">Tarefas</a>
-              </div>
-            </div>
+           
 
           <div class="col-md-1"></div>
 
-            <div class="col-md-3">
-              <div class="menu-alter">
-                <i class="fa-solid fa-check mr"></i>
-                <a class="funcionario.html" href="funcionario.html">Concluido</a>
-              </div>
-            </div>
+           
 
             <div class="col-md-2"></div>
 
 
-            <div class="col-md-3">
-              <div class="menu-alter">
-                <i class="fa-regular fa-thumbs-up mr"></i>
-                <a class="funcionario.html" href="funcionario.html">Feedback</a>
-              </div>
-            </div>
+            
           </div>
 
           <div class="row">
@@ -135,16 +112,18 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                    <h3>Tarefas</h3>
+                    <h3>Notificações</h3>
                   </div>
                 </div>
 
                 <div class="row">
+                  <!-- caixas -->
                   <div class="col-md-12 ">
+
                     <table class="mx-auto">
                       <tr>
-                        <th>Nome</th>
-                        <th>Data</th>
+                        <th>Tarefa</th>
+                        <th>Data de vencimento</th>
                         <th>Categoria</th>
                       </tr>
                       <tr>
@@ -177,16 +156,8 @@
                         <td>25/12/2025</td>
                         <td>Individual</td>
                       </tr>
-                      <tr>
-                        <td>Fazer o front-end (wix)</td>
-                        <td>16/05/2025</td>
-                        <td>Individual</td>
-                      </tr>
-                      <tr class="cor-task">
-                        <td>Fazer o back-end gerente (Banco tuy)</td>
-                        <td>25/12/2025</td>
-                        <td>Individual</td>
-                      </tr>
+                      
+                      
                     </table>
                   </div>
                   
