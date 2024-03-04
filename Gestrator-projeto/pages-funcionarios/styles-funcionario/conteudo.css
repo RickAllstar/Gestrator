@@ -161,12 +161,17 @@
     width: 350px;
     height: 400px;
     margin: 35px;
-    border-radius: 10px;
+    border-radius: 25px;
   }
 
-  .cards p {
+  .nr10{
     background-color: blue;
     color: white;
+  }
+
+  .nr10 h4{
+    padding-top: 5px;
+    font-size: 25px;
   }
 
   .cards img {
