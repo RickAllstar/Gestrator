@@ -58,6 +58,10 @@ nav ul li a{
     margin-right: 10px;
 }
 
+.pag-name{
+    display: flex;
+}
+
 #seus_conteudos {  
     margin-left: 20px;
     margin-top: 20px;
